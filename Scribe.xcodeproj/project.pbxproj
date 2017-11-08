@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D6073D451FB37C0B00FCE634 /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6073D441FB37C0B00FCE634 /* CircleButton.swift */; };
+		D6A8DDF01FB3969500554E2A /* test.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D6A8DDEF1FB3969400554E2A /* test.m4a */; };
 		D6B285271FB35DE700A2D158 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B285261FB35DE700A2D158 /* AppDelegate.swift */; };
 		D6B285291FB35DE700A2D158 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B285281FB35DE700A2D158 /* ViewController.swift */; };
 		D6B2852C1FB35DE700A2D158 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6B2852A1FB35DE700A2D158 /* Main.storyboard */; };
@@ -16,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D6073D441FB37C0B00FCE634 /* CircleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
+		D6A8DDEF1FB3969400554E2A /* test.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = test.m4a; path = "../../../../../Downloads/speech-recognition/Scribe/test.m4a"; sourceTree = "<group>"; };
+		D6A8DDF21FB396DF00554E2A /* test.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.m4a; sourceTree = "<group>"; };
 		D6B285231FB35DE700A2D158 /* Scribe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scribe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6B285261FB35DE700A2D158 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D6B285281FB35DE700A2D158 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -37,6 +42,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D6073D411FB37B8400FCE634 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D6073D421FB37B9000FCE634 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D6073D441FB37C0B00FCE634 /* CircleButton.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D6073D431FB37B9A00FCE634 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D6B285281FB35DE700A2D158 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D6A8DDF11FB396D900554E2A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D6A8DDF21FB396DF00554E2A /* test.m4a */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		D6B2851A1FB35DE700A2D158 = {
 			isa = PBXGroup;
 			children = (
@@ -56,8 +92,12 @@
 		D6B285251FB35DE700A2D158 /* Scribe */ = {
 			isa = PBXGroup;
 			children = (
+				D6A8DDF11FB396D900554E2A /* Resources */,
+				D6A8DDEF1FB3969400554E2A /* test.m4a */,
+				D6073D431FB37B9A00FCE634 /* Controller */,
+				D6073D421FB37B9000FCE634 /* View */,
+				D6073D411FB37B8400FCE634 /* Model */,
 				D6B285261FB35DE700A2D158 /* AppDelegate.swift */,
-				D6B285281FB35DE700A2D158 /* ViewController.swift */,
 				D6B2852A1FB35DE700A2D158 /* Main.storyboard */,
 				D6B285301FB35DE700A2D158 /* Assets.xcassets */,
 				D6B285321FB35DE700A2D158 /* LaunchScreen.storyboard */,
@@ -126,6 +166,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6A8DDF01FB3969500554E2A /* test.m4a in Resources */,
 				D6B285341FB35DE700A2D158 /* LaunchScreen.storyboard in Resources */,
 				D6B285311FB35DE700A2D158 /* Assets.xcassets in Resources */,
 				D6B2852C1FB35DE700A2D158 /* Main.storyboard in Resources */,
@@ -142,6 +183,7 @@
 				D6B285291FB35DE700A2D158 /* ViewController.swift in Sources */,
 				D6B285271FB35DE700A2D158 /* AppDelegate.swift in Sources */,
 				D6B2852F1FB35DE700A2D158 /* Scribe.xcdatamodeld in Sources */,
+				D6073D451FB37C0B00FCE634 /* CircleButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
